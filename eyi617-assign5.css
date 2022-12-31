@@ -1,0 +1,127 @@
+#image-top{
+    float: top;
+}
+#image-float-right{
+    float: right;
+}
+.align-left {
+    text-align: left;
+}
+.image-border {
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#container-1{
+    max-width: 1000px;
+    margin: auto;
+}
+#container-2{
+    max-width: 1000px;
+    margin: auto;
+    min-height: 50%;
+}
+
+#left-menu {
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 150px;
+    color: white;
+    margin-right: 10px;
+    font-size: x-large;
+}
+#center-menu{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 20px;
+    min-width: 300px;
+}
+#right-menu{
+    text-align: center;
+    background-color: orange;
+    width: 150px;
+    color: white;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+.line {
+
+    width: 140px;
+    margin: auto;
+}
+#footer{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: green;
+    height: 75px;
+    margin-top: 10px;
+}
+.button {
+    width: 75%;
+    margin:auto;
+    margin: 20px;
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 2px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:active {
+    background-color: lightgray;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#right-course-menu{
+    text-align: center;
+    color: black;
+    border: 2px;
+    float: left;
+    height: 100%;
+}
+#left-menu-dark {
+    text-align: center;
+    background-color: lightgray;
+    width: 150px;
+    color: black;
+    margin-right: 10px;
+    font-size: x-large;
+}
+#right-menu-dark {
+    text-align: center;
+    background-color: lightgray;
+    width: 150px;
+    color: black;
+    margin-right: 10px;
+    font-size: x-large;
+    height: 100%;
+}
+
+#dark {
+    background-color: gray;
+}
+
+#records{
+    border: black;
+    border-style: solid;
+    border-width: thick;
+    margin: 15px;
+    padding: 10px;
+}
+
